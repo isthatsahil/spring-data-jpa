@@ -72,7 +72,7 @@ public class Student {
     )
     private LocalDate dateOfBirth;
 
-    public Student(Long id, String firstName, String lastName, String email, LocalDate dateOfBirth) {
+    public Student(String firstName, String lastName, String email, LocalDate dateOfBirth) {
         System.out.println("Inside student");
         this.id = id;
         this.firstName = firstName;
